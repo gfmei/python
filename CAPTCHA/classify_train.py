@@ -6,7 +6,7 @@ Created on Mar 22 15:45:19 2016
 @author: gfmei
 """
 import MySQLdb
-import rem_noise, bayes
+import rem_noise
 from pylab import *
 try:
     conn = MySQLdb.connect(host='localhost', user='root', passwd='51desk', db='Place51desk', charset='utf8', port=3306)
